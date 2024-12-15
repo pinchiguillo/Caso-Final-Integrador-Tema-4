@@ -5,11 +5,9 @@
 #include <locale>
 #include <iostream>
 
-int main () {
-    setlocale(LC_ALL, "es_ES.UTF-8");
+#include "tests/test1.h"
 
-    std::cout << "¡Hola, mundo!" << std::endl;
+int main() {
 
-
-    return 0;
+    run_tests();
 }
