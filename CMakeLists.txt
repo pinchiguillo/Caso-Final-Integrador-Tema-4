@@ -4,7 +4,9 @@ project(Caso_Final_Integrador_Tema_4)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Caso_Final_Integrador_Tema_4
-    main.cpp)
+    main.cpp
+        tiny-lisp/tinylisp.cpp
+        tiny-lisp/tinylisp.h)
 
 include(FetchContent)
 FetchContent_Declare(
